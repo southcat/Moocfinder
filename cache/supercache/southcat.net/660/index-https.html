@@ -1,0 +1,2190 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="keywords" content="教程, 博客,个人记录,Jazz,,南猫,wordpress博客,技术博客,个人生活,学生博客,南方的猫">
+	<meta name="description" content="
+之前因为QC30升级固件之后降噪能力下降，然后购入了QC35Ⅱ，然后手贱又更新了固件然后降噪又差了，然后百度谷歌一直找固件降级教程，结果都是已经无法使用的。前几日偶然刷github">
+	<title>BOSE耳机降级教程  适用QC30 QC35 QC35Ⅱ  Noise Cancelling Headphones 700等多个型号（原方法有反馈可以使用 具体没测试 可以自行测试一下） &#8211; 南猫 - 苟活于乱世之中。</title>
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="shortcut icon" href="https://cdn.southcat.net/wp-content/uploads/2019/08/bitbug_favicon.ico" title="Favicon">
+		<script type="text/javascript">
+		var Theme = {"ajaxurl":"https:\/\/southcat.net\/wp-admin\/admin-ajax.php","admin_url":"https:\/\/southcat.net\/wp-admin\/","wp_url":"https:\/\/southcat.net","ea_url":"\/www\/wwwroot\/southcat.net\/wp-content\/themes\/easter","redirecturl":"https:\/\/southcat.net\/660","paged":1,"cpage":1,"moudle_url":"https:\/\/southcat.net\/wp-content\/themes\/easter\/user\/moudle","inc_url":"https:\/\/southcat.net\/wp-content\/themes\/easter\/inc\/moudle","is_admin":0,"loadingmessage":"\u6b63\u5728\u8bf7\u6c42\u4e2d\uff0c\u8bf7\u7a0d\u7b49...","order":"asc","formpostion":"top","chat_avatar":"<img src=\"https:\/\/southcat.net\/wp-content\/themes\/easter\/img\/dava.png\" class=\"avatar\" width=\"50\" height=\"50\" \/>","user_name":false,"uid":0,"pid":660};
+	</script>
+	
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://cdn.southcat.net/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='shona-style-css'  href='https://cdn.southcat.net/wp-content/themes/easter/style.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='main.css-css'  href='https://cdn.southcat.net/wp-content/themes/easter/assets/css/main.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='layouts-css'  href='https://cdn.southcat.net/wp-content/themes/easter/inc/skin/layouts.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='hint-css'  href='https://cdn.southcat.net/wp-content/themes/easter/assets/css/hint.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='iconfont-css'  href='https://cdn.southcat.net/wp-content/themes/easter/assets/fonts/iconfont.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='plugin-css'  href='https://cdn.southcat.net/wp-content/themes/easter/assets/css/plugin.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ea_user_css-css'  href='https://cdn.southcat.net/wp-content/themes/easter/user/static/ea_user.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mobile-layout-css'  href='https://cdn.southcat.net/wp-content/themes/easter/assets/css/mobile.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://cdn.southcat.net/wp-content/themes/easter/assets/setting/assets/css/font-awesome.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery.fancybox.min.css-css'  href='https://cdn.southcat.net/wp-content/themes/easter/assets/css/jquery.fancybox.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='https://api.w.org/' href='https://southcat.net/wp-json/' />
+<link rel='prev' title='MCSManager小白开服攻略' href='https://southcat.net/646/' />
+<link rel='next' title='加油你要努力跳出去' href='https://southcat.net/667/' />
+<link rel="canonical" href="https://southcat.net/660/" />
+<link rel='shortlink' href='https://southcat.net/?p=660' />
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145467589-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-145467589-1');
+</script>
+</head>
+
+<body class="post-template-default single single-post postid-660 single-format-standard">
+
+<div id="page" class="site ">
+
+	<header id="masthead" class="site-header">
+		<div class="site-branding">
+			
+			<a class="m_go_back" href="javascript:history.go(-1)"><i class="iconfont icon-back-o"></i></a>
+			
+			<div class="logo_here "><a href="https://southcat.net/">南猫</a></div>			
+			<div class="top_menu">
+			<div class="menu-%e5%af%bc%e8%88%aa-container"><ul id="primary-menu" class="menu"><li id="menu-item-23" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-23"><a href="https://southcat.net/">首页</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="https://southcat.net/links/">邻居</a></li>
+<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="https://southcat.net/archives/">归档</a></li>
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="https://southcat.net/about/">关于</a></li>
+<li id="menu-item-122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122"><a href="https://southcat.net/duanju/">短句</a></li>
+</ul></div>			</div>
+			
+		
+<div class="header_right">
+	
+			<div class="user_header">
+				<!-- #login -->
+<form id="login" class="ajax-auth" action="login" method="post">
+    <h1>HELLO FRIEND</h1>
+	<p class="log_title">SIGN IN</p>
+    <p class="status"></p>  
+    <input type="hidden" id="security" name="security" value="0d763895ec" /><input type="hidden" name="_wp_http_referer" value="/660/" />  
+    <label for="username">
+	    <i class="iconfont icon-admin loginicon"></i>
+		<input id="username" type="text" class="required" name="username" placeholder="用户名">
+	</label>
+    <label for="password">
+		<i class="iconfont icon-mima loginicon"></i>
+		<input id="password" type="password" class="required" name="password" placeholder="输入密码">
+	</label>
+	    <a id="pop_forgot" class="text-link" href="">忘记密码?</a>
+    <input class="submit_button" type="submit" value="LOGIN">
+	 <hr />
+	<h3>没有账号？<a id="pop_signup" href="">立即创建</a></h3>
+	<div class="social_login"></div>	
+	<a class="close" href=""><i class="iconfont icon-close-o"></i></a>    
+</form>
+<!-- #reg -->
+<form id="register" class="ajax-auth"  action="register" method="post">
+	<h1>HELLO FRIEND</h1>
+	<p class="log_title">SIGN UP</p>
+    <p class="status"></p>
+    <input type="hidden" id="signonsecurity" name="signonsecurity" value="cd5838441b" /><input type="hidden" name="_wp_http_referer" value="/660/" />         
+    <label for="signonname">
+		<i class="iconfont icon-admin loginicon"></i>
+		<input id="signonname" type="text" name="signonname" class="required" placeholder="用户名">
+	</label>
+	
+    <label for="user_email">
+		<i class="iconfont icon-youxiang loginicon"></i>
+		<input id="user_email" type="text" class="required user_email" name="user_email" placeholder="常用邮箱">
+	</label>
+	
+    <label for="signonpassword">
+		<i class="iconfont icon-mima loginicon"></i>
+		<input id="signonpassword" type="password" class="required" name="signonpassword" placeholder="输入密码">
+	</label>
+	
+    <label for="password2">
+		<i class="iconfont icon-mima loginicon"></i>	
+		<input type="password" id="password2" class="required" name="password2" placeholder="确认密码">
+	</label>
+	
+		<label for="reg_type"><div class="eatest_content">
+			<div class="eatest_overlay"></div>
+			<div class="test_circle"><span class="wa1"><span class="wa2"></span></span></div>
+			<i class="iconfont icon-duihao pass_icon animate bounceIn" style="display:none"></i>
+				<p>点击按钮进行验证</p>
+				<input class="ea_reg_eatest" type="radio" name="reg_eatest">
+				<i class="iconfont icon-yanzhengma2 texticon"></i>
+			</div></label>	
+    <input class="submit_button" type="submit" value="SIGNUP">
+	<hr />
+	<h3>已有账号？ <a id="pop_login"  href="">立即登录</a></h3>
+	<div class="social_login"></div>    <a class="close" href=""><i class="iconfont icon-close-o"></i></a>    
+</form>
+<!-- #foget -->
+<form id="forgot_password" class="ajax-auth" action="forgot_password" method="post">    
+    <h2>重置密码</h2>
+    <p class="status"></p>  
+    <input type="hidden" id="forgotsecurity" name="forgotsecurity" value="c685bc2f1d" /><input type="hidden" name="_wp_http_referer" value="/660/" />  
+    <label for="user_login">
+		<i class="iconfont icon-mima loginicon"></i>
+		<input id="user_login" type="text" class="required" name="user_login" placeholder="输入用户名或密码">
+	</label>
+     <input class="submit_button" type="submit" value="SUBMIT">
+	<a class="close" href=""><i class="iconfont icon-close-o"></i></a>    
+</form>              
+					<a class="login_button" id="show_login" href=""><i class="iconfont icon-admin"></i></a>
+							</div>
+
+			
+	<div id="header-tool" class="header-message-box">
+		<a><i class="iconfont icon-notice-o"></i></a>
+		<div class="fast_notify_check" style="display:none"><div class="head_name"><i class="iconfont icon-xiaoxi"></i>NOTIFICATIONS</div><div class="nodata"></div></div>
+	</div>	
+	
+	
+		<div id="header-tool" class="header-search-box ea_modal_btn">
+		<a href="#"><i class="iconfont icon-search-o"></i></a>
+		<div class="search_content"><form class="ea_search" method="get" action="https://southcat.net" role="search">
+				<div class="search_form_inner ea_content_modal animate slideUp">
+				<a class="close_search"><i class="iconfont icon-close-o"></i></a>
+					<div class="search-bar">
+						<i class="iconfont icon-search-o"></i>
+						<input class="text-input" type="search" name="s" placeholder="Search">
+					</div>
+				</div>
+			</form></div>
+	</div>
+	
+</div>	
+			
+		</div><!-- .site-branding -->
+			
+		<!-- #site-navigation -->
+	</header><!-- #masthead -->
+	
+		
+	<div class="header-banner-box">
+						
+								<div id="cover" class="banner" style="background:url(https://cdn.southcat.net/wp-content/uploads/2019/07/wallhaven-43k973.jpg); background-position: center; background-size: cover; ">					
+				</div>
+
+			</div>
+			
+	
+				
+<div id="main_container" class="main_loop_content">
+
+
+	
+<div class="left_bar">
+
+<div class="home_left_bar_inner shadow">
+	
+			<div class="blog_card">
+			<div class="blog_card_bg" style="background-image:url(https://cdn.southcat.net/wp-content/themes/easter/img/infobg.jpg);">
+				
+				<span>
+					<h1>南猫</h1><p>@蜜汁南猫</p>
+				</span>		
+				<img src="https://cdn.southcat.net/wp-content/uploads/2019/07/下载.png">
+			</div>
+			
+			<div class="bg_des">
+				<p>折腾永无止境</p>
+			</div>
+			
+			<div class="no-pjax">
+			<div class="bg_card1">			
+					<div class="inbox posts_box">
+						<div class="inner">
+							<span><i class="iconfont icon-edit-o"></i>文章</span> 37 
+						</div>
+				    </div>
+					<div class="inbox friends_box">
+						<span><i class="iconfont icon-courier-o"></i>朋友</span> 7						</div>
+					<div class="inbox visits_box">
+						<span><i class="iconfont icon-courier-o"></i>来访</span> 112					</div>		
+			</div>
+			
+			<div class="posts_toggle inbox_toggle">	
+				<h4>LATEST POSTS</h4>
+					<ul><li><a href="https://southcat.net/660/" title="BOSE耳机降级教程  适用QC30 QC35 QC35Ⅱ  Noise Cancelling Headphones 700等多个型号（原方法有反馈可以使用 具体没测试 可以自行测试一下）"> BOSE耳机降级教程  适用QC30 QC35 QC35Ⅱ  Noise Cancelling Headphones 700等多个型号（原方法有反馈可以使用 具体没测试 可以自行测试一下）</a><div class="meta">72 REPLIES , 7,872 VIEWS</div></li><li><a href="https://southcat.net/438/" title="屏蔽QQ内置浏览器举报功能(已经失效)"> 屏蔽QQ内置浏览器举报功能(已经失效)</a><div class="meta">22 REPLIES , 5,026 VIEWS</div></li><li><a href="https://southcat.net/515/" title="[挖坑笔记]Centos7折腾Jupyter Notebook"> [挖坑笔记]Centos7折腾Jupyter Notebook</a><div class="meta">0 REPLIES , 1,019 VIEWS</div></li><li><a href="https://southcat.net/550/" title="Pyone一款支持多网盘挂载和离线下载的OneDrive管理工具"> Pyone一款支持多网盘挂载和离线下载的OneDrive管理工具</a><div class="meta">0 REPLIES , 965 VIEWS</div></li><li><a href="https://southcat.net/406/" title="ServerStatus-Toyo 服务器探针安装"> ServerStatus-Toyo 服务器探针安装</a><div class="meta">0 REPLIES , 947 VIEWS</div></li><li><a href="https://southcat.net/646/" title="MCSManager小白开服攻略"> MCSManager小白开服攻略</a><div class="meta">2 REPLIES , 860 VIEWS</div></li><li><a href="https://southcat.net/496/" title="留一个莫西干朋克风格的发型"> 留一个莫西干朋克风格的发型</a><div class="meta">2 REPLIES , 855 VIEWS</div></li><li><a href="https://southcat.net/532/" title="Forsaken Mail一个即收即毁的临时邮箱系统"> Forsaken Mail一个即收即毁的临时邮箱系统</a><div class="meta">0 REPLIES , 845 VIEWS</div></li><li><a href="https://southcat.net/503/" title="Declaració del lloc web"> Declaració del lloc web</a><div class="meta">4 REPLIES , 844 VIEWS</div></li><li><a href="https://southcat.net/480/" title="佛系更新"> 佛系更新</a><div class="meta">2 REPLIES , 840 VIEWS</div></li><li><a href="https://southcat.net/416/" title="AUXPI-- 集合多家 API 的新一代图床 安装教程"> AUXPI-- 集合多家 API 的新一代图床 安装教程</a><div class="meta">0 REPLIES , 813 VIEWS</div></li><li><a href="https://southcat.net/454/" title="构建在线ASCII视频流服务"> 构建在线ASCII视频流服务</a><div class="meta">0 REPLIES , 768 VIEWS</div></li><li><a href="https://southcat.net/590/" title="PHP版Sorry 真香GIF在线生成--添加GIF模板"> PHP版Sorry 真香GIF在线生成--添加GIF模板</a><div class="meta">0 REPLIES , 752 VIEWS</div></li><li><a href="https://southcat.net/494/" title="京东抢购？？？？"> 京东抢购？？？？</a><div class="meta">0 REPLIES , 741 VIEWS</div></li><li><a href="https://southcat.net/593/" title="MKOnlineMusicPlayer 开源的在线音乐播放器"> MKOnlineMusicPlayer 开源的在线音乐播放器</a><div class="meta">0 REPLIES , 675 VIEWS</div></li><li><a href="https://southcat.net/600/" title="Screen-linux下的多窗口管理器小白快速上手"> Screen-linux下的多窗口管理器小白快速上手</a><div class="meta">0 REPLIES , 616 VIEWS</div></li><li><a href="https://southcat.net/410/" title="如何将本地代码PUSH到github"> 如何将本地代码PUSH到github</a><div class="meta">0 REPLIES , 601 VIEWS</div></li><li><a href="https://southcat.net/586/" title="PHP版Sorry 真香GIF在线生成网站搭建"> PHP版Sorry 真香GIF在线生成网站搭建</a><div class="meta">0 REPLIES , 587 VIEWS</div></li><li><a href="https://southcat.net/640/" title="MCSManager：轻量级我的世界服务器管理系统安装    附：一键脚本"> MCSManager：轻量级我的世界服务器管理系统安装    附：一键脚本</a><div class="meta">0 REPLIES , 583 VIEWS</div></li><li><a href="https://southcat.net/622/" title="如何制做一个属于你的“.chn”物联网域名"> 如何制做一个属于你的“.chn”物联网域名</a><div class="meta">1 REPLIES , 566 VIEWS</div></li><li><a href="https://southcat.net/634/" title="VPS库存监控系统 --- 实时把握库存信息"> VPS库存监控系统 --- 实时把握库存信息</a><div class="meta">0 REPLIES , 545 VIEWS</div></li><li><a href="https://southcat.net/603/" title="MCSManager开服常见问题"> MCSManager开服常见问题</a><div class="meta">0 REPLIES , 520 VIEWS</div></li><li><a href="https://southcat.net/611/" title="Apache和Nginx环境下README.md文件无法访问解决方案"> Apache和Nginx环境下README.md文件无法访问解决方案</a><div class="meta">0 REPLIES , 507 VIEWS</div></li><li><a href="https://southcat.net/630/" title="既来之则安之"> 既来之则安之</a><div class="meta">1 REPLIES , 494 VIEWS</div></li><li><a href="https://southcat.net/499/" title="经历"> 经历</a><div class="meta">0 REPLIES , 485 VIEWS</div></li><li><a href="https://southcat.net/667/" title="加油你要努力跳出去"> 加油你要努力跳出去</a><div class="meta">0 REPLIES , 261 VIEWS</div></li><li><a href="https://southcat.net/673/" title="IOS剁手记"> IOS剁手记</a><div class="meta">0 REPLIES , 171 VIEWS</div></li><li><a href="https://southcat.net/681/" title="超级好用的截图贴图软件--Snipaste"> 超级好用的截图贴图软件--Snipaste</a><div class="meta">0 REPLIES , 144 VIEWS</div></li><li><a href="https://southcat.net/676/" title="12月7日 天气晴 这几天过的太难了"> 12月7日 天气晴 这几天过的太难了</a><div class="meta">0 REPLIES , 126 VIEWS</div></li><li><a href="https://southcat.net/686/" title="年前被骗属实sm"> 年前被骗属实sm</a><div class="meta">0 REPLIES , 110 VIEWS</div></li></ul>				</div>
+			<div class="friends_toggle inbox_toggle">	
+					<div class="item"><div class="link-avatar"><a href="https://www.liuguogy.com" target="_blank"><img alt="avatar" src="https://cdn.southcat.net/wp-content/themes/easter/img/dava.png" class="avatar avatar-80" height="80" width="80"></a></div><div class="info"><h3 class="name"><a href="https://www.liuguogy.com" target="_blank">Linger<i class="iconfont icon-Raidobox-selectedRai"></i></a></h3><div class="meta button"><a href="https://www.liuguogy.com" target="_blank">https://www.liuguogy.com</a></div></div><div class="description">Nothing here</div></div><!-- .item --><div class="item"><div class="link-avatar"><a href="https://tongtaos.com/" target="_blank"><img alt="avatar" src="https://cdn.southcat.net/wp-content/themes/easter/img/dava.png" class="avatar avatar-80" height="80" width="80"></a></div><div class="info"><h3 class="name"><a href="https://tongtaos.com/" target="_blank">Mr.童<i class="iconfont icon-Raidobox-selectedRai"></i></a></h3><div class="meta button"><a href="https://tongtaos.com/" target="_blank">https://tongtaos.com/</a></div></div><div class="description">Nothing here</div></div><!-- .item --><div class="item"><div class="link-avatar"><a href="https://blog.svipbox.cn" target="_blank"><img alt="avatar" src="https://blog.svipbox.cn/wp-content/uploads/2019/10/moxi.jpg" srcset="https://blog.svipbox.cn/wp-content/uploads/2019/10/moxi.jpg" class="avatar avatar-80" height="80" width="80"></a></div><div class="info"><h3 class="name"><a href="https://blog.svipbox.cn" target="_blank">墨惜博客<i class="iconfont icon-Raidobox-selectedRai"></i></a></h3><div class="meta button"><a href="https://blog.svipbox.cn" target="_blank">https://blog.svipbox.cn</a></div></div><div class="description">Nothing here</div></div><!-- .item --><div class="item"><div class="link-avatar"><a href="https://www.boxmoe.com" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/092fcea07ab136dbf10742caca291eef?s=80&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/092fcea07ab136dbf10742caca291eef?s=160&#038;d=mm&#038;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' /></a></div><div class="info"><h3 class="name"><a href="https://www.boxmoe.com" target="_blank">猫可喵<i class="iconfont icon-Raidobox-selectedRai"></i></a></h3><div class="meta button"><a href="https://www.boxmoe.com" target="_blank">https://www.boxmoe.com</a></div></div><div class="description">Nothing here</div></div><!-- .item --><div class="item"><div class="link-avatar"><a href="https://jianai.org" target="_blank"><img alt="avatar" src="https://cdn.southcat.net/wp-content/themes/easter/img/dava.png" class="avatar avatar-80" height="80" width="80"></a></div><div class="info"><h3 class="name"><a href="https://jianai.org" target="_blank">简爱博客<i class="iconfont icon-Raidobox-selectedRai"></i></a></h3><div class="meta button"><a href="https://jianai.org" target="_blank">https://jianai.org</a></div></div><div class="description">Nothing here</div></div><!-- .item --><div class="item"><div class="link-avatar"><a href="https://www.nmza.net" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/f7e313e936af157d702eeec25b024f3a?s=80&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/f7e313e936af157d702eeec25b024f3a?s=160&#038;d=mm&#038;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' /></a></div><div class="info"><h3 class="name"><a href="https://www.nmza.net" target="_blank">菊花博客<i class="iconfont icon-Raidobox-selectedRai"></i></a></h3><div class="meta button"><a href="https://www.nmza.net" target="_blank">https://www.nmza.net</a></div></div><div class="description">Nothing here</div></div><!-- .item --><div class="item"><div class="link-avatar"><a href="https://www.fyovo.com" target="_blank"><img alt="avatar" src="https://www.fyovo.com/wp-content/uploads/2019/02/头像.jpg" srcset="https://www.fyovo.com/wp-content/uploads/2019/02/头像.jpg" class="avatar avatar-80" height="80" width="80"></a></div><div class="info"><h3 class="name"><a href="https://www.fyovo.com" target="_blank">风影OvO博客<i class="iconfont icon-Raidobox-selectedRai"></i></a></h3><div class="meta button"><a href="https://www.fyovo.com" target="_blank">https://www.fyovo.com</a></div></div><div class="description">https://www.fyovo.com/wp-content/uploads/2019/02/%E5%A4%B4%E5%83%8F.jpg</div></div><!-- .item -->				</div>	
+			<div class="visits_toggle inbox_toggle">
+				<h4>RANKINGS</h4>
+					<ul><li>
+                        <a href='#' target='_blank' title='bai (4)'><div class='v-line' style='width:100%'></div>
+                            <img alt='' src='https://secure.gravatar.com/avatar/50831aa7656e70b69240e37857cc952d?s=80&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/50831aa7656e70b69240e37857cc952d?s=160&#038;d=mm&#038;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' /><span>bai</span><b>+4</b>
+                        </a>
+                    </li><li>
+                        <a href='#' target='_blank' title='撒打算的 (1)'><div class='v-line' style='width:25%'></div>
+                            <img alt='' src='https://secure.gravatar.com/avatar/5a60a9b79102435d26672298a5a01616?s=80&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/5a60a9b79102435d26672298a5a01616?s=160&#038;d=mm&#038;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' /><span>撒打算的</span><b>+1</b>
+                        </a>
+                    </li></ul>				</div>		
+			</div>
+			
+			<ul class="bg_list">
+				<li><i class="iconfont icon-position-o"></i>China</li>
+				<li><i class="iconfont icon-link-o"></i>https://southcat.net</li>
+				<li><i class="iconfont icon-history-o"></i>网站成立804天</li>
+							
+			</ul>
+			
+			<div class="info_bu">
+				<div class="item">
+					<a class="button_link gradient hint--top" href="mailto:" data-hint="">邮箱联系</a>
+				</div>
+				<div class="item">
+					<a class="button_link gradient hint--top" href="http://wpa.qq.com/msgrd?v=3&uin=8341638&site=qq&menu=yes" data-hint="QQ联系我" target="_blank">即时联系</a>
+				</div>
+			</div>
+		</div>
+		
+				
+	</div>
+	
+			<div class="alteration shadow round" style="background: #fff;">
+			<div class="widget"><h3 class="widget-title">评论排行</h3><ul class="items attention latest_comments_widget"><li class="item">
+					<div class="left"><a href=""><img alt='' src='https://secure.gravatar.com/avatar/5a60a9b79102435d26672298a5a01616?s=42&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/5a60a9b79102435d26672298a5a01616?s=84&#038;d=mm&#038;r=g 2x' class='avatar avatar-42 photo' height='42' width='42' /></a></div>
+					<div class="right">
+						<h1><a href="">撒打算的</a></h1><small>  · 刚刚</small><p class="nowrap">评论附件测试<a href="https://cdn.southcat.net/wp-content/uploads/comment-img/commentimg-0-7275.jpg" class="fancy-box" data-fancybox="comment-img-Array"><img src="https://cdn.southcat.net/wp-content/uploads/comment-img/commentimg-0-7275.jpg" alt="" style="width:100%; height:100%;border-radius: 3px;" /></a></p>
+					</div>
+				 </li><li class="item">
+					<div class="left"><a href="https://southcat.net/user/1"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="42" height="42" /></a></div>
+					<div class="right">
+						<h1><a href="https://southcat.net/user/1">蜜汁南猫</a></h1><small>  · 刚刚</small><p class="nowrap">提示什么啊</p>
+					</div>
+				 </li><li class="item">
+					<div class="left"><a href=""><img alt='' src='https://secure.gravatar.com/avatar/50831aa7656e70b69240e37857cc952d?s=42&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/50831aa7656e70b69240e37857cc952d?s=84&#038;d=mm&#038;r=g 2x' class='avatar avatar-42 photo' height='42' width='42' /></a></div>
+					<div class="right">
+						<h1><a href="">bai</a></h1><small>  · 刚刚</small><p class="nowrap">ok 啦 下载下来啦</p>
+					</div>
+				 </li><li class="item">
+					<div class="left"><a href=""><img alt='' src='https://secure.gravatar.com/avatar/50831aa7656e70b69240e37857cc952d?s=42&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/50831aa7656e70b69240e37857cc952d?s=84&#038;d=mm&#038;r=g 2x' class='avatar avatar-42 photo' height='42' width='42' /></a></div>
+					<div class="right">
+						<h1><a href="">bai</a></h1><small>  · 刚刚</small><p class="nowrap">下载完 安装不上</p>
+					</div>
+				 </li><li class="item">
+					<div class="left"><a href=""><img alt='' src='https://secure.gravatar.com/avatar/50831aa7656e70b69240e37857cc952d?s=42&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/50831aa7656e70b69240e37857cc952d?s=84&#038;d=mm&#038;r=g 2x' class='avatar avatar-42 photo' height='42' width='42' /></a></div>
+					<div class="right">
+						<h1><a href="">bai</a></h1><small>  · 刚刚</small><p class="nowrap">为什么你给我推荐的链接真么快  我自己找的卡死  根本下不下来</p>
+					</div>
+				 </li></ul></div>		</div>
+		
+		
+</div>
+	
+	<div id="content" class="site-content ">
+	
+		
+		<div id="cat-nav" class="cat-branding">
+		<div class="cat_menu">
+					<div class="menu-%e5%af%bc%e8%88%aa-container"><ul id="cat-menu" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-23"><a href="https://southcat.net/">首页</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="https://southcat.net/links/">邻居</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="https://southcat.net/archives/">归档</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="https://southcat.net/about/">关于</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122"><a href="https://southcat.net/duanju/">短句</a></li>
+</ul></div>				</div>
+
+			</div>
+		
+
+	
+	
+		
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
+
+		
+<div class="single_container">
+<div class="single_top_meta">
+	<div class="top_like top_collect"><div class="collect_btn"><a id="show_login" class="collect-btn collect-no login_button hint--left" data-hint="你必须注册并登录才能收藏"><i class="iconfont icon-star-empty">&nbsp;</i><span>1</span></a></div></div>
+	<div class="single_ava"><a href="https://southcat.net/user/1"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a></div>
+	<div class="single_meta_inner">
+		<h1><a href="https://southcat.net/user/1">蜜汁南猫</a></h1>
+		<ul>
+		<li class="single_date">
+			<span class="iconfont icon-time-o"></span>
+			<time itemprop="datePublished" datetime="2019-09-30T14:47:33+08:00">2019-09-30</time>
+		</li>
+		<li class="single_cat">
+			<span class="iconfont icon-folder-o"></span>
+			教程		</li>
+		<li class="single_cat">
+					</li>
+		</ul>
+	</div>
+	
+	</div>
+	
+	<h1 class="single_post_title">BOSE耳机降级教程  适用QC30 QC35 QC35Ⅱ  Noise Cancelling Headphones 700等多个型号（原方法有反馈可以使用 具体没测试 可以自行测试一下）</h1>
+<article id="post-660" class="post-660 post type-post status-publish format-standard hentry category-12">
+
+<div class="single_content">
+
+
+	<div class="entry-content">
+		
+<p>之前因为QC30升级固件之后降噪能力下降，然后购入了QC35Ⅱ，然后手贱又更新了固件然后降噪又差了，然后百度谷歌一直找固件降级教程，结果都是已经无法使用的。前几日偶然刷github发现了一个大佬编辑的Bose固件更新器可以进行降级，于是在这里分享一下</p>
+
+
+
+<p>作者Github： <a href="https://github.com/bosefirmware/ced" target="_blank"  rel="nofollow" >https://github.com/bosefirmware/ced</a> </p>
+
+
+
+<p>首先我们先要到Bose官网下载官方的更新工具网址： <a href="https://btu.bose.com/" target="_blank"  rel="nofollow" >https://btu.bose.com/</a> </p>
+
+
+
+<p>下载完成之后我们需要打开一次软件然后退出。</p>
+
+
+
+<p>然后我们下载编辑过的BOSE更新器   <a href="https://github.com/bosefirmware/ced/raw/master/BOSEUPDATER.EXE" target="_blank"  rel="nofollow" >点击此处下载</a></p>
+
+
+
+<p>将下载的更新器复制到 C:\Program Files (x86)\Bose Updater 文件目录下，覆盖原文件。然后运行更新器。</p>
+
+
+
+<p>接下来打开 <a href="https://btu.bose.com/" target="_blank"  rel="nofollow" >https://btu.bose.com/</a>   并将你的耳机用过USB线连接到电脑，链接成功后会显示如下画面</p>
+
+
+
+<figure class="wp-block-image"><img src="https://cdn.southcat.net/wp-content/uploads/2019/09/捕获-1024x465.png" alt="" class="wp-image-661" srcset="https://cdn.southcat.net/wp-content/uploads/2019/09/捕获-1024x465.png 1024w, https://cdn.southcat.net/wp-content/uploads/2019/09/捕获-300x136.png 300w, https://cdn.southcat.net/wp-content/uploads/2019/09/捕获-768x349.png 768w, https://cdn.southcat.net/wp-content/uploads/2019/09/捕获.png 1140w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>然后我们依次按下 a d v ↑ ↓ 按键即可选择版本进行降级</p>
+
+
+
+<figure class="wp-block-image"><img src="https://cdn.southcat.net/wp-content/uploads/2019/09/捕获2.png" alt="" class="wp-image-662" srcset="https://cdn.southcat.net/wp-content/uploads/2019/09/捕获2.png 798w, https://cdn.southcat.net/wp-content/uploads/2019/09/捕获2-300x182.png 300w, https://cdn.southcat.net/wp-content/uploads/2019/09/捕获2-768x466.png 768w" sizes="(max-width: 798px) 100vw, 798px" /><figcaption><br></figcaption></figure>
+
+
+
+<p>选择版本点击Update Now等待更新完成即可。</p>
+			</div><!-- .entry-content -->
+
+	<footer class="post-footer">
+    	<!--<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4672475622787599"
+     data-ad-slot="7292422698"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>-->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-gw-3+1f-3d+2z"
+     data-ad-client="ca-pub-4672475622787599"
+     data-ad-slot="6669445745"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<div class="single-footer-inner">
+	<div class="single_inner_like">
+		<a href="javascript:;" data-action="ding" data-id="660" class="specsZan ">
+			<span class="iconfont icon-androidfavorite"></span>
+		<h4 class="count">
+			0</h4>
+		</a>
+	</div>
+	<div class="single_inner_views">
+		<span class="count_view"><span class="iconfont icon-attention"></span>7,872</span>	
+	</div>
+	
+			<div class="share">
+			<div class="popover popover-bottom ">
+<a href="javascript:(0);"> <span class="iconfont icon-androidshare"></span></a>
+<div class="sharebox popover-container">
+	<div class="card inner textcenter">
+	<div class="sharebg" style="background-image: url(https://cdn.southcat.net/wp-content/uploads/2019/09/捕获-1024x465.png);">
+	</div>
+		<ul class="items">  
+			<li class="item posturl"><span class="iconfont icon-link-o"></span>URL<input type="text" id="share-shorturl" placeholder="Get Short URL..." value="https://southcat.net/660/"></li>
+			
+			<li class="item wechatshare"><span class="iconfont icon-weixin"></span>微信分享<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://southcat.net/660/"/></li>
+		
+			<li class="item weiboshare"><span class="iconfont icon-weibo"></span><a href="//service.weibo.com/share/share.php?url=https://southcat.net/660/&appkey=南猫&title=BOSE耳机降级教程  适用QC30 QC35 QC35Ⅱ  Noise Cancelling Headphones 700等多个型号（原方法有反馈可以使用 具体没测试 可以自行测试一下）&pic=https://southcat.net/wp-content/uploads/2019/09/捕获-1024x465.png&ralateUid=&language=zh_cn" rel="nofollow" onclick="window.open(this.href, 'weibo-share', 'width=550,height=335');return false;">微博分享</a></li>
+			
+			<li class="item qqshare"><span class="iconfont icon-QQ"></span><a href="//connect.qq.com/widget/shareqq/index.html?url=https://southcat.net/660/" rel="nofollow" onclick="window.open(this.href, 'qq-share', 'width=550,height=335');return false;">好友分享</a></li>
+			
+			<li class="item qzone"><span class="iconfont icon-Qzone"></span><a href="//sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://southcat.net/660/&title=BOSE耳机降级教程  适用QC30 QC35 QC35Ⅱ  Noise Cancelling Headphones 700等多个型号（原方法有反馈可以使用 具体没测试 可以自行测试一下）&pics=https://southcat.net/wp-content/uploads/2019/09/捕获-1024x465.png" rel="nofollow" onclick="window.open(this.href, 'qq-share', 'width=550,height=335');return false;">空间分享</a></li>
+		</ul>
+	</div>
+</div>
+</div>		</div>
+		
+			<div class="copyright"><a class="hint--left" data-hint="原创文章，转载请注明出处"><i class="iconfont icon-c"></i></a></div>
+	</div>
+
+
+	<div class="prev-next clearfix">
+					<span class="postprev"><i class="iconfont icon-back-o"></i><a href="https://southcat.net/646/" rel="prev">MCSManager小白开服攻略</a></span>			<span class="postnext"><a href="https://southcat.net/667/" rel="next">加油你要努力跳出去</a><i class="iconfont icon-forward-o"></i></span>					</div>
+		</footer><!-- .entry-footer -->
+	</div>
+</article><!-- #post-## -->
+</div>
+
+ 
+
+	<section id="comments" class="comments">
+		<div class="comments-main">
+	<h3 id="comments-list-title"><i class="iconfont icon-mark"></i>Comments | <span class="noticom"><a href="https://southcat.net/660/#comments">72 条评论</a> </span></h3>
+	<div id="respond_box">
+		<div id="respond" class="comment-respond">
+		<div class="cancel-comment-reply">
+			<a rel="nofollow" id="cancel-comment-reply-link" href="/660/#respond" style="display:none;">取消回复</a>		</div>
+	
+	    <form action="https://southcat.net/wp-comments-post.php" method="post" id="commentform">	
+      	
+	  <p class="loginby"><i class="iconfont icon-admin"></i>  &nbsp;&nbsp;游客，你好 
+	  <a class="edit_comment_info hint--top" data-hint="修改名片"><i class="iconfont icon-setting-o"></i>修改资料</a>
+			<div id="ava-content" class="commentput">
+								<div id="comment-author-info" class="card">	
+					<p>*邮箱和昵称必须填写</p>
+						<input type="text" name="author" id="author"  value=""  size="22" tabindex="1" placeholder="Name" />
+						<label for="author"></label>				
+						<input type="text" name="email" id="email"  value=""  size="22" placeholder="Email" tabindex="2" />
+						<label for="email"></label>				
+						<input type="text" name="url" id="url"  value="" size="22" placeholder="http://"  tabindex="3" />
+						<label for="url"></label>	
+					
+				</div>
+				</div>
+	  </p>		
+	
+		
+      <div class="clear"></div>
+      
+	 
+	
+	  <div class="ava_comments">
+	  <div class="avaleft">
+		  <div id="ava-popover" class="visitor-avatar">
+				<a class="js-click"><img src="https://cdn.southcat.net/wp-content/themes/easter/img/ava.gif"  height="50" width="50" class="v-avatar avatar avatar-50"><span class="none-info"></span></a>			</div>
+	  </div>	
+			<div class="comarea">
+				<textarea name="comment" id="comment"  placeholder="say something" tabindex="4" cols="50" rows="5"></textarea>
+			</div>
+		</div>
+		
+	
+	 
+		
+		<div class="com-footer">
+			<div class="comment_smile"><div class="comment_smile_btn hint--top" data-hint="插入表情"><i class="iconfont icon-xiaolian"></i></div><div class="smile-content shadow" style="display:none"></div></div>			<div class="comment_upload_img"><i class="iconfont icon-images"><input id="comment_img_file" name="comment_img_file" type="file" accept="image/jpg,image/jpeg,image/png,image/gif" ></i><div id="comment_upload_img_show"></div></div>			
+							<div class="comment-form-validate">
+						<input class="ea-checkbox-radio" type="checkbox" name="no-robot">
+						<label for="default" class="comment_check_style"></label>			
+				</div>
+				
+			
+			<input class="submit" name="submit" type="submit" id="submit" tabindex="5" value="SUBMIT"/>
+			<input type='hidden' name='comment_post_ID' value='660' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+
+			
+		</div>
+		    </form>
+	<div class="clear"></div>
+      </div>
+  </div>	
+	
+			<ul class="commentwrap">
+							<li id="li-comment-1642" class="comment even thread-even depth-1">
+					<div id="comment-1642" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/e94656cb82a8f7228e13e1d9d56fb101?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/e94656cb82a8f7228e13e1d9d56fb101?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">111</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-10-03T18:51:05+08:00">2019-10-03 下午6:51</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1642#respond' onclick='return addComment.moveForm( "comment-1642", "1642", "respond", "660" )' aria-label='回复给111'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p>你成功了吗</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1643" class="comment byuser comment-author-cat bypostauthor odd alt depth-2">
+					<div id="comment-1643" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-10-03T22:59:28+08:00">2019-10-03 下午10:59</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1643#respond' onclick='return addComment.moveForm( "comment-1643", "1643", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="你成功了吗" href="#comment-1642">@111</a> 30和35二代都降级成功</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1702" class="comment even depth-3">
+					<div id="comment-1702" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/ac4cfcd205816971e9650cd6424433d3?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/ac4cfcd205816971e9650cd6424433d3?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">panxuan</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-10T03:06:27+08:00">2019-11-10 上午3:06</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1702#respond' onclick='return addComment.moveForm( "comment-1702", "1702", "respond", "660" )' aria-label='回复给panxuan'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="30和35二代都降级成功" href="#comment-1643">@蜜汁南猫</a> 前几天30左耳坏了，要不要考虑把30比咸鱼便宜点出我~</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1703" class="comment byuser comment-author-cat bypostauthor odd alt depth-4">
+					<div id="comment-1703" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-10T10:05:56+08:00">2019-11-10 上午10:05</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1703#respond' onclick='return addComment.moveForm( "comment-1703", "1703", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="前几天30左耳坏了，要不要考虑把30比咸鱼便宜点出我~" href="#comment-1702">@panxuan</a> 不打算出  30通勤还是比较舒服的，这几天京东打折价格比较低的</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+				<li id="li-comment-1644" class="comment byuser comment-author-cat bypostauthor even thread-odd thread-alt depth-1">
+					<div id="comment-1644" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-10-03T23:02:47+08:00">2019-10-03 下午11:02</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1644#respond' onclick='return addComment.moveForm( "comment-1644", "1644", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p>邮件测试</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1649" class="comment odd alt depth-2">
+					<div id="comment-1649" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/c43651d75c408cb28ce0267f5a236c96?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/c43651d75c408cb28ce0267f5a236c96?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">admin@southcat.net</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-10-04T00:41:58+08:00">2019-10-04 上午12:41</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1649#respond' onclick='return addComment.moveForm( "comment-1649", "1649", "respond", "660" )' aria-label='回复给admin@southcat.net'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="邮件测试" href="#comment-1644">@蜜汁南猫</a> 测试</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+				<li id="li-comment-1645" class="comment byuser comment-author-cat bypostauthor even thread-even depth-1">
+					<div id="comment-1645" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-10-03T23:31:00+08:00">2019-10-03 下午11:31</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1645#respond' onclick='return addComment.moveForm( "comment-1645", "1645", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p>测试邮件</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+				<li id="li-comment-1646" class="comment byuser comment-author-cat bypostauthor odd alt thread-odd thread-alt depth-1">
+					<div id="comment-1646" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-10-03T23:49:41+08:00">2019-10-03 下午11:49</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1646#respond' onclick='return addComment.moveForm( "comment-1646", "1646", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p>邮件发送测试</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+				<li id="li-comment-1647" class="comment byuser comment-author-cat bypostauthor even thread-even depth-1">
+					<div id="comment-1647" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-10-04T00:38:34+08:00">2019-10-04 上午12:38</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1647#respond' onclick='return addComment.moveForm( "comment-1647", "1647", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p>Smtp测试</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+				<li id="li-comment-1648" class="comment byuser comment-author-cat bypostauthor odd alt thread-odd thread-alt depth-1">
+					<div id="comment-1648" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-10-04T00:40:36+08:00">2019-10-04 上午12:40</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1648#respond' onclick='return addComment.moveForm( "comment-1648", "1648", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p>测试</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+				<li id="li-comment-1651" class="comment even thread-even depth-1">
+					<div id="comment-1651" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/c95421f6dfa4662e983805bdda588087?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/c95421f6dfa4662e983805bdda588087?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">lmddx</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-10-10T19:19:56+08:00">2019-10-10 下午7:19</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1651#respond' onclick='return addComment.moveForm( "comment-1651", "1651", "respond", "660" )' aria-label='回复给lmddx'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p>有用吗，听说降级的不是降噪固件？</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+				<li id="li-comment-1652" class="comment odd alt thread-odd thread-alt depth-1">
+					<div id="comment-1652" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/c95421f6dfa4662e983805bdda588087?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/c95421f6dfa4662e983805bdda588087?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">lmddx</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-10-10T19:34:00+08:00">2019-10-10 下午7:34</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1652#respond' onclick='return addComment.moveForm( "comment-1652", "1652", "respond", "660" )' aria-label='回复给lmddx'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p>替换之后打开显示要我更新版本，。。。</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1653" class="comment even depth-2">
+					<div id="comment-1653" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/c43651d75c408cb28ce0267f5a236c96?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/c43651d75c408cb28ce0267f5a236c96?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">southcat</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-10-10T21:46:45+08:00">2019-10-10 下午9:46</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1653#respond' onclick='return addComment.moveForm( "comment-1653", "1653", "respond", "660" )' aria-label='回复给southcat'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="替换之后打开显示要我更新版本，。。。" href="#comment-1652">@lmddx</a> 对就是更新固件，adv上下键选择你要的版本更新就可以，降噪个人感觉降级之后没多大变化</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+				<li id="li-comment-1654" class="comment odd alt thread-even depth-1">
+					<div id="comment-1654" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/38d8b9d0b295749b4ce274d0a90ca5b9?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/38d8b9d0b295749b4ce274d0a90ca5b9?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">Kircheis</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-10-17T15:15:36+08:00">2019-10-17 下午3:15</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1654#respond' onclick='return addComment.moveForm( "comment-1654", "1654", "respond", "660" )' aria-label='回复给Kircheis'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p>降级成功谢谢博主</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+				<li id="li-comment-1657" class="comment byuser comment-author-cat bypostauthor even thread-odd thread-alt depth-1">
+					<div id="comment-1657" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-10-19T15:31:46+08:00">2019-10-19 下午3:31</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1657#respond' onclick='return addComment.moveForm( "comment-1657", "1657", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p>缓存测试</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+				<li id="li-comment-1658" class="comment odd alt thread-even depth-1">
+					<div id="comment-1658" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/aea23da3bc4174929599bd86e9ef2cab?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/aea23da3bc4174929599bd86e9ef2cab?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">叶</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-10-20T16:41:48+08:00">2019-10-20 下午4:41</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1658#respond' onclick='return addComment.moveForm( "comment-1658", "1658", "respond", "660" )' aria-label='回复给叶'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p>软件版本为什么只能选择3.0.3？</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1659" class="comment even depth-2">
+					<div id="comment-1659" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/aea23da3bc4174929599bd86e9ef2cab?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/aea23da3bc4174929599bd86e9ef2cab?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">叶</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-10-20T16:49:28+08:00">2019-10-20 下午4:49</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1659#respond' onclick='return addComment.moveForm( "comment-1659", "1659", "respond", "660" )' aria-label='回复给叶'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="软件版本为什么只能选择3.0.3？" href="#comment-1658">@叶</a> 重新复制粘贴BOSE更新器 ，已解决</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+				<li id="li-comment-1660" class="comment odd alt thread-odd thread-alt depth-1">
+					<div id="comment-1660" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/2aae08ca33f1e57092a05b053e55f15f?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/2aae08ca33f1e57092a05b053e55f15f?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">士千</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-10-28T22:04:26+08:00">2019-10-28 下午10:04</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1660#respond' onclick='return addComment.moveForm( "comment-1660", "1660", "respond", "660" )' aria-label='回复给士千'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p>又不能降级了</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1661" class="comment byuser comment-author-cat bypostauthor even depth-2">
+					<div id="comment-1661" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-10-28T22:32:01+08:00">2019-10-28 下午10:32</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1661#respond' onclick='return addComment.moveForm( "comment-1661", "1661", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="又不能降级了" href="#comment-1660">@士千</a> 现在没有原装线没法进行测试，你删除安装器重新安装替换一下试试</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+				<li id="li-comment-1662" class="comment odd alt thread-even depth-1">
+					<div id="comment-1662" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/36c0d699c789a19cb38c7098fb902a5e?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/36c0d699c789a19cb38c7098fb902a5e?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">111</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-01T13:55:09+08:00">2019-11-01 下午1:55</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1662#respond' onclick='return addComment.moveForm( "comment-1662", "1662", "respond", "660" )' aria-label='回复给111'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p>BOSE更新器无法下载</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1668" class="comment even depth-2">
+					<div id="comment-1668" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/91e27d05b8193fc1f3fc3c8fd7e25741?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/91e27d05b8193fc1f3fc3c8fd7e25741?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">rabbit</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-03T22:00:19+08:00">2019-11-03 下午10:00</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1668#respond' onclick='return addComment.moveForm( "comment-1668", "1668", "respond", "660" )' aria-label='回复给rabbit'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="BOSE更新器无法下载" href="#comment-1662">@111</a> 怎么下载更新器？？求教</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+				<li id="li-comment-1663" class="comment odd alt thread-odd thread-alt depth-1">
+					<div id="comment-1663" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/36c0d699c789a19cb38c7098fb902a5e?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/36c0d699c789a19cb38c7098fb902a5e?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">111</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-01T14:29:18+08:00">2019-11-01 下午2:29</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1663#respond' onclick='return addComment.moveForm( "comment-1663", "1663", "respond", "660" )' aria-label='回复给111'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p>博主，覆盖后链接不上</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1664" class="comment byuser comment-author-cat bypostauthor even depth-2">
+					<div id="comment-1664" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-01T16:29:21+08:00">2019-11-01 下午4:29</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1664#respond' onclick='return addComment.moveForm( "comment-1664", "1664", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="博主，覆盖后链接不上" href="#comment-1663">@111</a> 周日看一下没原装线没法链接</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+				<li id="li-comment-1665" class="comment odd alt thread-even depth-1">
+					<div id="comment-1665" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/c9371c6507fc9928337beab8ca0e08e2?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/c9371c6507fc9928337beab8ca0e08e2?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">gzhcn</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-03T10:17:40+08:00">2019-11-03 上午10:17</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1665#respond' onclick='return addComment.moveForm( "comment-1665", "1665", "respond", "660" )' aria-label='回复给gzhcn'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p>您好，方便留一下联系方式吗，我在用这个方法的时候，启动器显示That didn&#8217;t work. Refresh your browser or relaunch the Bose Updater, then try again. 然后refresh或者relaunch都没用，请问有解决方法吗</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1666" class="comment byuser comment-author-cat bypostauthor even depth-2">
+					<div id="comment-1666" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-03T14:45:46+08:00">2019-11-03 下午2:45</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1666#respond' onclick='return addComment.moveForm( "comment-1666", "1666", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="您好，方便留一下联系方式吗，我在用这个方法的时候，启动器显示That didn't work. Refresh your browser or relaunch the Bose Updater, then try again. 然后refresh或者relaunch都没用，请问有解决方法吗" href="#comment-1665">@gzhcn</a> Bose官方貌似已经识别到了这个修改过的更新器，目前没有相关方案</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1667" class="comment odd alt depth-3">
+					<div id="comment-1667" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/c9371c6507fc9928337beab8ca0e08e2?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/c9371c6507fc9928337beab8ca0e08e2?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">gzhcn</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-03T17:20:43+08:00">2019-11-03 下午5:20</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1667#respond' onclick='return addComment.moveForm( "comment-1667", "1667", "respond", "660" )' aria-label='回复给gzhcn'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="Bose官方貌似已经识别到了这个修改过的更新器，目前没有相关方案" href="#comment-1666">@蜜汁南猫</a> 啊，心如死灰</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+				<li id="li-comment-1669" class="comment even thread-odd thread-alt depth-1">
+					<div id="comment-1669" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/91e27d05b8193fc1f3fc3c8fd7e25741?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/91e27d05b8193fc1f3fc3c8fd7e25741?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">rabbit</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-03T22:28:06+08:00">2019-11-03 下午10:28</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1669#respond' onclick='return addComment.moveForm( "comment-1669", "1669", "respond", "660" )' aria-label='回复给rabbit'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p>博主，更新器的链接是不是要用迅雷下载？点击打不开啊</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1670" class="comment byuser comment-author-cat bypostauthor odd alt depth-2">
+					<div id="comment-1670" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-04T08:26:41+08:00">2019-11-04 上午8:26</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1670#respond' onclick='return addComment.moveForm( "comment-1670", "1670", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="博主，更新器的链接是不是要用迅雷下载？点击打不开啊" href="#comment-1669">@rabbit</a> 更新器因为服务器在国外国内目前无法下载，而且目前此方法已经暂时失灵我还在找办法修改</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1673" class="comment even depth-3">
+					<div id="comment-1673" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/91e27d05b8193fc1f3fc3c8fd7e25741?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/91e27d05b8193fc1f3fc3c8fd7e25741?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">rabbit</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-05T20:20:26+08:00">2019-11-05 下午8:20</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1673#respond' onclick='return addComment.moveForm( "comment-1673", "1673", "respond", "660" )' aria-label='回复给rabbit'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="更新器因为服务器在国外国内目前无法下载，而且目前此方法已经暂时失灵我还在找办法修改" href="#comment-1670">@蜜汁南猫</a> 麻烦博主了</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+				<li id="li-comment-1671" class="comment byuser comment-author-391941462 odd alt thread-even depth-1">
+					<div id="comment-1671" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/2" target="_blank"><img src="https://cdn.southcat.net/wp-content/themes/easter/img/dava.png" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/2" target="_blank">391941462</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-04T11:58:50+08:00">2019-11-04 上午11:58</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1671#respond' onclick='return addComment.moveForm( "comment-1671", "1671", "respond", "660" )' aria-label='回复给391941462'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p>修改版的更新器链接进不去怎么办？能发我一个吗？谢谢了。</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1672" class="comment byuser comment-author-cat bypostauthor even depth-2">
+					<div id="comment-1672" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-04T22:50:39+08:00">2019-11-04 下午10:50</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1672#respond' onclick='return addComment.moveForm( "comment-1672", "1672", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="修改版的更新器链接进不去怎么办？能发我一个吗？谢谢了。" href="#comment-1671">@391941462</a> 链接：https://pan.baidu.com/s/1h6-VCLQ_Ypx8cga8MSAbAA<br />
+提取码：opsw<br />
+复制这段内容后打开百度网盘手机App，操作更方便哦</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+				<li id="li-comment-1674" class="comment odd alt thread-odd thread-alt depth-1">
+					<div id="comment-1674" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/c092299595b7836297067f436f51d7aa?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/c092299595b7836297067f436f51d7aa?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">尘封拂晓</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-05T23:29:40+08:00">2019-11-05 下午11:29</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1674#respond' onclick='return addComment.moveForm( "comment-1674", "1674", "respond", "660" )' aria-label='回复给尘封拂晓'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p>老哥现在还可以降级吗，我4.13你觉得需要降级吗，降级之后真的有效吗，我看有的人说有效，有的人说没有。（ps：这个博客是你自己做的吗，使用体验很好啊233）</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1679" class="comment byuser comment-author-cat bypostauthor even depth-2">
+					<div id="comment-1679" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-07T07:41:56+08:00">2019-11-07 上午7:41</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1679#respond' onclick='return addComment.moveForm( "comment-1679", "1679", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="老哥现在还可以降级吗，我4.13你觉得需要降级吗，降级之后真的有效吗，我看有的人说有效，有的人说没有。（ps：这个博客是你自己做的吗，使用体验很好啊233）" href="#comment-1674">@尘封拂晓</a> 个人感觉降级没有多大的提升反而高版本音质方面稍微能好点。</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+				<li id="li-comment-1681" class="comment byuser comment-author-cat bypostauthor odd alt depth-2">
+					<div id="comment-1681" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-07T07:46:28+08:00">2019-11-07 上午7:46</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1681#respond' onclick='return addComment.moveForm( "comment-1681", "1681", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="老哥现在还可以降级吗，我4.13你觉得需要降级吗，降级之后真的有效吗，我看有的人说有效，有的人说没有。（ps：这个博客是你自己做的吗，使用体验很好啊233）" href="#comment-1674">@尘封拂晓</a> 如果是QC30建议保持高版本低版本耳压比较大一些</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1689" class="comment even depth-3">
+					<div id="comment-1689" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/ac4cfcd205816971e9650cd6424433d3?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/ac4cfcd205816971e9650cd6424433d3?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">panxuan</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-08T18:00:24+08:00">2019-11-08 下午6:00</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1689#respond' onclick='return addComment.moveForm( "comment-1689", "1689", "respond", "660" )' aria-label='回复给panxuan'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="如果是QC30建议保持高版本低版本耳压比较大一些" href="#comment-1681">@蜜汁南猫</a> Qc30你说的高版本推荐哪一版？</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1692" class="comment byuser comment-author-cat bypostauthor odd alt depth-4">
+					<div id="comment-1692" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-09T00:00:42+08:00">2019-11-09 上午12:00</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1692#respond' onclick='return addComment.moveForm( "comment-1692", "1692", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="Qc30你说的高版本推荐哪一版？" href="#comment-1689">@panxuan</a> 我现在是最新一般，降级之后感觉降噪没有感觉，qc30也是有段时间没用了，一直都是qc35</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+				<li id="li-comment-1675" class="comment even thread-even depth-1">
+					<div id="comment-1675" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/c092299595b7836297067f436f51d7aa?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/c092299595b7836297067f436f51d7aa?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">尘封拂晓</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-05T23:30:37+08:00">2019-11-05 下午11:30</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1675#respond' onclick='return addComment.moveForm( "comment-1675", "1675", "respond", "660" )' aria-label='回复给尘封拂晓'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p>比我们学校官网界面好看又好用?</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+				<li id="li-comment-1676" class="comment byuser comment-author-jackma odd alt thread-odd thread-alt depth-1">
+					<div id="comment-1676" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/4" target="_blank"><img src="https://cdn.southcat.net/wp-content/themes/easter/img/dava.png" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/4" target="_blank">JackMa</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-06T02:59:34+08:00">2019-11-06 上午2:59</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1676#respond' onclick='return addComment.moveForm( "comment-1676", "1676", "respond", "660" )' aria-label='回复给JackMa'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p>方法GG了啊，新的固件底噪大的睡不着觉</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1678" class="comment byuser comment-author-cat bypostauthor even depth-2">
+					<div id="comment-1678" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-07T07:41:03+08:00">2019-11-07 上午7:41</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1678#respond' onclick='return addComment.moveForm( "comment-1678", "1678", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="方法GG了啊，新的固件底噪大的睡不着觉" href="#comment-1676">@JackMa</a> 底噪大的话建议直接售后吧，我还在研究新方法</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+				<li id="li-comment-1677" class="comment byuser comment-author-cmchurch odd alt thread-even depth-1">
+					<div id="comment-1677" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/5" target="_blank"><img src="https://cdn.southcat.net/wp-content/themes/easter/img/dava.png" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/5" target="_blank">cmchurch</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-06T11:50:45+08:00">2019-11-06 上午11:50</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1677#respond' onclick='return addComment.moveForm( "comment-1677", "1677", "respond", "660" )' aria-label='回复给cmchurch'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p>好像复制了更新器后链接不上了，博主还有更新的办法吗，谢谢！</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1680" class="comment byuser comment-author-cat bypostauthor even depth-2">
+					<div id="comment-1680" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-07T07:42:35+08:00">2019-11-07 上午7:42</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1680#respond' onclick='return addComment.moveForm( "comment-1680", "1680", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="好像复制了更新器后链接不上了，博主还有更新的办法吗，谢谢！" href="#comment-1677">@cmchurch</a> 应该是更新器版本更新导致的我正在想办法重新编译新的更新器</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1682" class="comment odd alt depth-3">
+					<div id="comment-1682" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/ac4cfcd205816971e9650cd6424433d3?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/ac4cfcd205816971e9650cd6424433d3?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">panxuan</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-07T23:18:18+08:00">2019-11-07 下午11:18</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1682#respond' onclick='return addComment.moveForm( "comment-1682", "1682", "respond", "660" )' aria-label='回复给panxuan'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="应该是更新器版本更新导致的我正在想办法重新编译新的更新器" href="#comment-1680">@蜜汁南猫</a> 谢谢，好像看到一道光&#8230;..</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+				<li id="li-comment-1683" class="comment even depth-3">
+					<div id="comment-1683" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/ac4cfcd205816971e9650cd6424433d3?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/ac4cfcd205816971e9650cd6424433d3?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">panxuan</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-08T01:56:21+08:00">2019-11-08 上午1:56</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1683#respond' onclick='return addComment.moveForm( "comment-1683", "1683", "respond", "660" )' aria-label='回复给panxuan'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="应该是更新器版本更新导致的我正在想办法重新编译新的更新器" href="#comment-1680">@蜜汁南猫</a> 我看了下github.com，比如https://github.com/bosefirmware/ced/tree/master/powder<br />
+文件夹下的文件是否就是写入固件的文件？？只要找到写入程序&#8230;..我们自己也可以操作，对么？</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1685" class="comment byuser comment-author-cat bypostauthor odd alt depth-4">
+					<div id="comment-1685" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-08T13:31:35+08:00">2019-11-08 下午1:31</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1685#respond' onclick='return addComment.moveForm( "comment-1685", "1685", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="我看了下github.com，比如https://github.com/bosefirmware/ced/tree/master/powder
+文件夹下的文件是否就是写入固件的文件？？只要找到写入程序.....我们自己也可以操作，对么？" href="#comment-1683">@panxuan</a> 是将更新的一个网址进行拦截定向到作者已经写好的网页来进行更新，www.bose.cn/ced/bose_music_china/index.xml   拦截转发到raw.githubusercontent.com/bosefirmware/ced/master/lookup.xml就可以实现更新，可以自行使用拦截软件进行操作不过比较麻烦，目前我在windows上还没找到可用方案</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1686" class="comment byuser comment-author-cat bypostauthor even depth-5">
+					<div id="comment-1686" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-08T13:42:57+08:00">2019-11-08 下午1:42</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1686#respond' onclick='return addComment.moveForm( "comment-1686", "1686", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="是将更新的一个网址进行拦截定向到作者已经写好的网页来进行更新，www.bose.cn/ced/bose_music_china/index.xml   拦截转发到raw.githubusercontent.com/bosefirmware/ced/master/lookup.xml就可以实现更新，可以自行使用拦截软件进行操作不过比较麻烦，目前我在windows上还没找到可用方案" href="#comment-1685">@蜜汁南猫</a> <a href="https://worldwide.bose.com/connect_device" rel="nofollow ugc">https://worldwide.bose.com/connect_device</a>   把这个网址拦截</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1690" class="comment odd alt depth-6">
+					<div id="comment-1690" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/ac4cfcd205816971e9650cd6424433d3?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/ac4cfcd205816971e9650cd6424433d3?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">panxuan</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-08T18:02:27+08:00">2019-11-08 下午6:02</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1690#respond' onclick='return addComment.moveForm( "comment-1690", "1690", "respond", "660" )' aria-label='回复给panxuan'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="https://worldwide.bose.com/connect_device   把这个网址拦截" href="#comment-1686">@蜜汁南猫</a> 在chrome插件URLRedirector里能做到重新定向和拦截么？</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1691" class="comment byuser comment-author-cat bypostauthor even depth-7">
+					<div id="comment-1691" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-09T00:00:06+08:00">2019-11-09 上午12:00</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1691#respond' onclick='return addComment.moveForm( "comment-1691", "1691", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="在chrome插件URLRedirector里能做到重新定向和拦截么？" href="#comment-1690">@panxuan</a> 这个没试过</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+				<li id="li-comment-1688" class="comment odd alt depth-5">
+					<div id="comment-1688" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/ac4cfcd205816971e9650cd6424433d3?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/ac4cfcd205816971e9650cd6424433d3?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">panxuan</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-08T16:56:26+08:00">2019-11-08 下午4:56</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1688#respond' onclick='return addComment.moveForm( "comment-1688", "1688", "respond", "660" )' aria-label='回复给panxuan'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="是将更新的一个网址进行拦截定向到作者已经写好的网页来进行更新，www.bose.cn/ced/bose_music_china/index.xml   拦截转发到raw.githubusercontent.com/bosefirmware/ced/master/lookup.xml就可以实现更新，可以自行使用拦截软件进行操作不过比较麻烦，目前我在windows上还没找到可用方案" href="#comment-1685">@蜜汁南猫</a> 我用的正好是win10，我周边唯独没有mac&#8230;&#8230;.</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+				<li id="li-comment-1684" class="comment even depth-3">
+					<div id="comment-1684" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/ac4cfcd205816971e9650cd6424433d3?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/ac4cfcd205816971e9650cd6424433d3?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">panxuan</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-08T03:08:30+08:00">2019-11-08 上午3:08</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1684#respond' onclick='return addComment.moveForm( "comment-1684", "1684", "respond", "660" )' aria-label='回复给panxuan'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="应该是更新器版本更新导致的我正在想办法重新编译新的更新器" href="#comment-1680">@蜜汁南猫</a> 能不能从手机端bose的app入手&#8230;.</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+				<li id="li-comment-1695" class="comment odd alt thread-odd thread-alt depth-1">
+					<div id="comment-1695" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/2a1023550a0085b77c20b77e24b2d96c?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/2a1023550a0085b77c20b77e24b2d96c?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">Vsent</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-09T14:36:53+08:00">2019-11-09 下午2:36</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1695#respond' onclick='return addComment.moveForm( "comment-1695", "1695", "respond", "660" )' aria-label='回复给Vsent'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p>降级成功有用吗？我刚买回来是4.1.3的固件，连上APP就更新了，没试过更新之前的降噪，不过我用的时候降噪确实没他们说的那么好，有点怀疑是更新之后的问题</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1696" class="comment byuser comment-author-cat bypostauthor even depth-2">
+					<div id="comment-1696" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-09T21:17:55+08:00">2019-11-09 下午9:17</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1696#respond' onclick='return addComment.moveForm( "comment-1696", "1696", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="降级成功有用吗？我刚买回来是4.1.3的固件，连上APP就更新了，没试过更新之前的降噪，不过我用的时候降噪确实没他们说的那么好，有点怀疑是更新之后的问题" href="#comment-1695">@Vsent</a> 还是有点作用的低版本降噪普遍反应好一些</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1697" class="comment odd alt depth-3">
+					<div id="comment-1697" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/2a1023550a0085b77c20b77e24b2d96c?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/2a1023550a0085b77c20b77e24b2d96c?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">Vsent</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-09T21:21:17+08:00">2019-11-09 下午9:21</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1697#respond' onclick='return addComment.moveForm( "comment-1697", "1697", "respond", "660" )' aria-label='回复给Vsent'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="还是有点作用的低版本降噪普遍反应好一些" href="#comment-1696">@蜜汁南猫</a> 好吧，那现在还能降级吗</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1698" class="comment byuser comment-author-cat bypostauthor even depth-4">
+					<div id="comment-1698" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-09T21:22:25+08:00">2019-11-09 下午9:22</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1698#respond' onclick='return addComment.moveForm( "comment-1698", "1698", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="好吧，那现在还能降级吗" href="#comment-1697">@Vsent</a> 已经炸了，我这还有个特别麻烦的方法可以用</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1699" class="comment odd alt depth-5">
+					<div id="comment-1699" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/2a1023550a0085b77c20b77e24b2d96c?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/2a1023550a0085b77c20b77e24b2d96c?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">Vsent</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-09T21:24:18+08:00">2019-11-09 下午9:24</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1699#respond' onclick='return addComment.moveForm( "comment-1699", "1699", "respond", "660" )' aria-label='回复给Vsent'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="已经炸了，我这还有个特别麻烦的方法可以用" href="#comment-1698">@蜜汁南猫</a> 操作难度大吗？我有空想试试。</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1700" class="comment byuser comment-author-cat bypostauthor even depth-6">
+					<div id="comment-1700" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-09T21:34:01+08:00">2019-11-09 下午9:34</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1700#respond' onclick='return addComment.moveForm( "comment-1700", "1700", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="操作难度大吗？我有空想试试。" href="#comment-1699">@Vsent</a> <a href="https://github.com/bosefirmware/ced/issues/4" rel="nofollow ugc">https://github.com/bosefirmware/ced/issues/4</a> 可 以参考这个自行尝试下    win系统下可以使用charles进行拦截</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1701" class="comment odd alt depth-7">
+					<div id="comment-1701" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/2a1023550a0085b77c20b77e24b2d96c?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/2a1023550a0085b77c20b77e24b2d96c?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">Vsent</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-09T21:35:34+08:00">2019-11-09 下午9:35</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1701#respond' onclick='return addComment.moveForm( "comment-1701", "1701", "respond", "660" )' aria-label='回复给Vsent'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="https://github.com/bosefirmware/ced/issues/4 可 以参考这个自行尝试下    win系统下可以使用charles进行拦截" href="#comment-1700">@蜜汁南猫</a> 好的??，非常感谢</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+				<li id="li-comment-1704" class="comment byuser comment-author-wzc1022 even thread-even depth-1">
+					<div id="comment-1704" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/6" target="_blank"><img src="https://cdn.southcat.net/wp-content/themes/easter/img/dava.png" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/6" target="_blank">wzc1022</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-10T12:02:46+08:00">2019-11-10 下午12:02</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1704#respond' onclick='return addComment.moveForm( "comment-1704", "1704", "respond", "660" )' aria-label='回复给wzc1022'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p>楼主，现在还有没有3.30降级的方法。有的话能不能给发个完整的教程。麻烦也行</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+				<li id="li-comment-1705" class="comment byuser comment-author-wzc1022 odd alt thread-odd thread-alt depth-1">
+					<div id="comment-1705" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/6" target="_blank"><img src="https://cdn.southcat.net/wp-content/themes/easter/img/dava.png" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/6" target="_blank">wzc1022</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-10T12:03:45+08:00">2019-11-10 下午12:03</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1705#respond' onclick='return addComment.moveForm( "comment-1705", "1705", "respond", "660" )' aria-label='回复给wzc1022'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p>你说降级有用吗？有些人说没用</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1706" class="comment byuser comment-author-cat bypostauthor even depth-2">
+					<div id="comment-1706" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-11T07:37:15+08:00">2019-11-11 上午7:37</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1706#respond' onclick='return addComment.moveForm( "comment-1706", "1706", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="你说降级有用吗？有些人说没用" href="#comment-1705">@wzc1022</a> 有点玄学，我qc30降级之后降噪稍微好一些但是人生降噪依旧不如刚买回来的时候</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1707" class="comment byuser comment-author-chace1210 odd alt depth-3">
+					<div id="comment-1707" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/7" target="_blank"><img src="https://cdn.southcat.net/wp-content/themes/easter/img/dava.png" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/7" target="_blank">Chace1210</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-11T15:41:41+08:00">2019-11-11 下午3:41</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1707#respond' onclick='return addComment.moveForm( "comment-1707", "1707", "respond", "660" )' aria-label='回复给Chace1210'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="有点玄学，我qc30降级之后降噪稍微好一些但是人生降噪依旧不如刚买回来的时候" href="#comment-1706">@蜜汁南猫</a> qc35 II今天到手4.3.6，感觉降噪效果不如预期，现在是暂时没办法降级了吗？</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1708" class="comment byuser comment-author-cat bypostauthor even depth-4">
+					<div id="comment-1708" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-11T16:43:59+08:00">2019-11-11 下午4:43</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1708#respond' onclick='return addComment.moveForm( "comment-1708", "1708", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="qc35 II今天到手4.3.6，感觉降噪效果不如预期，现在是暂时没办法降级了吗？" href="#comment-1707">@Chace1210</a> 现在降级太麻烦我这只测试过macos的，现在入手qc35感觉血亏，马上下一代就上了。</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1712" class="comment odd alt depth-5">
+					<div id="comment-1712" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/ac4cfcd205816971e9650cd6424433d3?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/ac4cfcd205816971e9650cd6424433d3?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">panxuan</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-19T01:42:30+08:00">2019-11-19 上午1:42</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1712#respond' onclick='return addComment.moveForm( "comment-1712", "1712", "respond", "660" )' aria-label='回复给panxuan'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="现在降级太麻烦我这只测试过macos的，现在入手qc35感觉血亏，马上下一代就上了。" href="#comment-1708">@蜜汁南猫</a> 哪有QC哪里来下一代，不是已经变成了NC700了么</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1713" class="comment byuser comment-author-cat bypostauthor even depth-6">
+					<div id="comment-1713" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-19T10:35:38+08:00">2019-11-19 上午10:35</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1713#respond' onclick='return addComment.moveForm( "comment-1713", "1713", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="哪有QC哪里来下一代，不是已经变成了NC700了么" href="#comment-1712">@panxuan</a> qc35三或是其他命名，nc并没有睡代表下一代的qc系列</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+				<li id="li-comment-1709" class="comment byuser comment-author-cat bypostauthor odd alt depth-4">
+					<div id="comment-1709" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-11T16:44:30+08:00">2019-11-11 下午4:44</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1709#respond' onclick='return addComment.moveForm( "comment-1709", "1709", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="qc35 II今天到手4.3.6，感觉降噪效果不如预期，现在是暂时没办法降级了吗？" href="#comment-1707">@Chace1210</a> 去和线下体验店的对比过吗</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1710" class="comment byuser comment-author-chace1210 even depth-5">
+					<div id="comment-1710" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/7" target="_blank"><img src="https://cdn.southcat.net/wp-content/themes/easter/img/dava.png" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/7" target="_blank">Chace1210</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-11T16:46:21+08:00">2019-11-11 下午4:46</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1710#respond' onclick='return addComment.moveForm( "comment-1710", "1710", "respond", "660" )' aria-label='回复给Chace1210'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="去和线下体验店的对比过吗" href="#comment-1709">@蜜汁南猫</a> 我是拼多多 1249入手的，在B站找了下教程 点这个立即更新可以降级吗？<a href="https://cdn.southcat.net/wp-content/uploads/comment-img/commentimg-7-5865.jpg" class="fancy-box" data-fancybox="comment-img-1710"><img src="https://cdn.southcat.net/wp-content/uploads/comment-img/commentimg-7-5865.jpg" alt="" style="width:100%; height:100%;border-radius: 3px;" /></a></p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1711" class="comment byuser comment-author-cat bypostauthor odd alt depth-6">
+					<div id="comment-1711" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2019-11-11T19:30:25+08:00">2019-11-11 下午7:30</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1711#respond' onclick='return addComment.moveForm( "comment-1711", "1711", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="我是拼多多 1249入手的，在B站找了下教程 点这个立即更新可以降级吗？https://southcat.net/wp-content/uploads/comment-img/commentimg-7-5865.jpg" href="#comment-1710">@Chace1210</a> 出现选择其他版本页面选择好版本之后点击立即更新就可以降级</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+				<li id="li-comment-1720" class="comment even thread-even depth-1">
+					<div id="comment-1720" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/50831aa7656e70b69240e37857cc952d?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/50831aa7656e70b69240e37857cc952d?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">bai</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2020-03-19T16:20:03+08:00">2020-03-19 下午4:20</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1720#respond' onclick='return addComment.moveForm( "comment-1720", "1720", "respond", "660" )' aria-label='回复给bai'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p>有mac版本的吗</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1721" class="comment byuser comment-author-cat bypostauthor odd alt depth-2">
+					<div id="comment-1721" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2020-03-19T16:32:37+08:00">2020-03-19 下午4:32</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1721#respond' onclick='return addComment.moveForm( "comment-1721", "1721", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="有mac版本的吗" href="#comment-1720">@bai</a> github上面有一个mac版本的  <a href="https://github.com/bosefirmware/ced/blob/master/BoseUpdater_6.0.0.4388.dmg" rel="nofollow ugc">https://github.com/bosefirmware/ced/blob/master/BoseUpdater_6.0.0.4388.dmg</a></p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1722" class="comment even depth-3">
+					<div id="comment-1722" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/50831aa7656e70b69240e37857cc952d?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/50831aa7656e70b69240e37857cc952d?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">bai</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2020-03-19T16:41:41+08:00">2020-03-19 下午4:41</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1722#respond' onclick='return addComment.moveForm( "comment-1722", "1722", "respond", "660" )' aria-label='回复给bai'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="github上面有一个mac版本的  https://github.com/bosefirmware/ced/blob/master/BoseUpdater_6.0.0.4388.dmg" href="#comment-1721">@蜜汁南猫</a> 为什么你给我推荐的链接真么快  我自己找的卡死  根本下不下来</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+				<li id="li-comment-1723" class="comment odd alt depth-3">
+					<div id="comment-1723" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/50831aa7656e70b69240e37857cc952d?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/50831aa7656e70b69240e37857cc952d?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">bai</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2020-03-19T16:44:38+08:00">2020-03-19 下午4:44</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1723#respond' onclick='return addComment.moveForm( "comment-1723", "1723", "respond", "660" )' aria-label='回复给bai'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="github上面有一个mac版本的  https://github.com/bosefirmware/ced/blob/master/BoseUpdater_6.0.0.4388.dmg" href="#comment-1721">@蜜汁南猫</a> 下载完 安装不上</p>
+							</div>
+					</div>				
+			<ul class="children">
+				<li id="li-comment-1725" class="comment byuser comment-author-cat bypostauthor even depth-4">
+					<div id="comment-1725" class="comment_body contents">	
+						<div class="profile">
+							<a href="https://southcat.net/user/1" target="_blank"><img src="https://cdn.southcat.net/wp-content/uploads/avatars/avatar-1-59.jpg" class="avatar" width="50" height="50" /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="https://southcat.net/user/1" target="_blank">蜜汁南猫</a><i class="iconfont is-author" style="color: #ffac8b; font-size: 14px; margin-left: 5px;">&#xe665;</i></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2020-03-19T16:59:43+08:00">2020-03-19 下午4:59</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1725#respond' onclick='return addComment.moveForm( "comment-1725", "1725", "respond", "660" )' aria-label='回复给蜜汁南猫'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="下载完 安装不上" href="#comment-1723">@bai</a> 提示什么啊</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+				<li id="li-comment-1724" class="comment odd alt depth-3">
+					<div id="comment-1724" class="comment_body contents">	
+						<div class="profile">
+							<a href="" target="_blank"><img alt='' src='https://secure.gravatar.com/avatar/50831aa7656e70b69240e37857cc952d?s=50&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/50831aa7656e70b69240e37857cc952d?s=100&#038;d=mm&#038;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' /></a>
+						</div>					
+								<section class="commeta">
+									<div class="left">
+										<h4 class="author"><a href="" target="_blank">bai</a></h4>										
+									</div>
+									<div class="right">
+										<div class="info">
+										<time itemprop="datePublished" datetime="2020-03-19T16:55:26+08:00">2020-03-19 下午4:55</time>
+										<a rel='nofollow' class='comment-reply-link' href='https://southcat.net/660/?replytocom=1724#respond' onclick='return addComment.moveForm( "comment-1724", "1724", "respond", "660" )' aria-label='回复给bai'><i class="iconfont icon-duihua-o"></i></a>										</div>	
+									</div>
+								</section>
+							<div class="body">
+								<p><a class="parents_at hint--top" data-hint="github上面有一个mac版本的  https://github.com/bosefirmware/ced/blob/master/BoseUpdater_6.0.0.4388.dmg" href="#comment-1721">@蜜汁南猫</a> ok 啦 下载下来啦</p>
+							</div>
+					</div>				
+			</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+	
+		</ul>
+	
+		
+			
+	</div>
+	</section>
+	
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+<aside id="secondary" class="widget-area shadow">
+	<div class="widget"><div id='gallery-1' class='gallery galleryid-660 gallery-columns-3 gallery-size-thumbnail'><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<a href='https://southcat.net/%e4%b8%8b%e8%bd%bd/'><img width="150" height="150" src="https://cdn.southcat.net/wp-content/uploads/2019/07/下载-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="https://cdn.southcat.net/wp-content/uploads/2019/07/下载-150x150.png 150w, https://cdn.southcat.net/wp-content/uploads/2019/07/下载.png 200w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+			</div></figure><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<a href='https://southcat.net/%e4%b8%8b%e8%bd%bd-5/'><img width="150" height="150" src="https://cdn.southcat.net/wp-content/uploads/2019/07/下载-5-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="https://cdn.southcat.net/wp-content/uploads/2019/07/下载-5-150x150.png 150w, https://cdn.southcat.net/wp-content/uploads/2019/07/下载-5.png 200w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+			</div></figure><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<a href='https://southcat.net/%e4%b8%8b%e8%bd%bd-6/'><img width="150" height="150" src="https://cdn.southcat.net/wp-content/uploads/2019/07/下载-6-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="https://cdn.southcat.net/wp-content/uploads/2019/07/下载-6-150x150.png 150w, https://cdn.southcat.net/wp-content/uploads/2019/07/下载-6.png 200w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+			</div></figure><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<a href='https://southcat.net/%e4%b8%8b%e8%bd%bd-4/'><img width="150" height="150" src="https://cdn.southcat.net/wp-content/uploads/2019/07/下载-4-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="https://cdn.southcat.net/wp-content/uploads/2019/07/下载-4-150x150.png 150w, https://cdn.southcat.net/wp-content/uploads/2019/07/下载-4.png 200w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+			</div></figure><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<a href='https://southcat.net/%e4%b8%8b%e8%bd%bd-3/'><img width="150" height="150" src="https://cdn.southcat.net/wp-content/uploads/2019/07/下载-3-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="https://cdn.southcat.net/wp-content/uploads/2019/07/下载-3-150x150.png 150w, https://cdn.southcat.net/wp-content/uploads/2019/07/下载-3.png 200w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+			</div></figure><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<a href='https://southcat.net/%e4%b8%8b%e8%bd%bd-2/'><img width="150" height="150" src="https://cdn.southcat.net/wp-content/uploads/2019/07/下载-2-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="https://cdn.southcat.net/wp-content/uploads/2019/07/下载-2-150x150.png 150w, https://cdn.southcat.net/wp-content/uploads/2019/07/下载-2.png 200w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+			</div></figure><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<a href='https://southcat.net/550/%e4%b8%8b%e8%bd%bd-1/'><img width="150" height="150" src="https://cdn.southcat.net/wp-content/uploads/2019/07/下载-1-150x150.png" class="attachment-thumbnail size-thumbnail" alt="" srcset="https://cdn.southcat.net/wp-content/uploads/2019/07/下载-1-150x150.png 150w, https://cdn.southcat.net/wp-content/uploads/2019/07/下载-1.png 200w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+			</div></figure><figure class='gallery-item'>
+			<div class='gallery-icon portrait'>
+				<a href='https://southcat.net/img_20190705_211723/'><img width="150" height="150" src="https://cdn.southcat.net/wp-content/uploads/2019/07/IMG_20190705_211723-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" /></a>
+			</div></figure>
+		</div>
+</div></aside><!-- #secondary -->
+
+	</div><!-- #content -->
+	</div><!-- #main_container -->
+	
+
+	<div class="footer_tool">
+		<a class="go_top item"><i class="iconfont icon-extend-o"></i></a>
+		</div>
+
+	<footer id="colophon" class="site-footer">
+		<div class="site-info">
+				
+		<div class="copyright_content">
+			<li class="item">
+					
+					Copyright © 2020 by <a href="">南猫</a> 
+					<span class="step"> | </span> 
+					Design By <a href="https://southcat.net" target="_blank">southcat</a>
+							</li>
+			<li class="item">
+				鲁ICP备17032870号-5			</li>
+			
+										<div class="load_time">Page load 7.388 s  查询108次</div>
+					</div>
+			
+		</div><!-- .site-info -->
+		
+
+	</footer><!-- #colophon -->
+	
+</div><!-- #page -->
+	
+<div class="footer_nav">
+	<div class="footer_nav_inner">
+		<ul>
+			
+							<li class="item"><a href="https://southcat.net/">
+								<img src="https://cdn.southcat.net/wp-content/uploads/2019/08/首页.png">
+								<span>Home</span>
+							</a></li>
+							
+							<li class="item"><a href="https://southcat.net/topic">
+								<img src="https://cdn.southcat.net/wp-content/uploads/2019/08/消息.png">
+								<span>广场</span>
+							</a></li>
+							
+							<li class="search"><a href="#">
+								<img src="https://cdn.southcat.net/wp-content/uploads/2019/08/搜索.png">
+								<span>搜索</span>
+							</a></li>
+								 
+		</ul>	
+		</div>	
+	</div>
+	<div class="footer_search">
+		<form class="ea_footer_search" method="get" action="https://southcat.net" role="search">
+					<div class="footer_search_inner animate slideUp">
+					<a class="close_search"><i class="iconfont icon-close-o"></i></a>
+						<div class="search-bar">
+							<i class="iconfont icon-search-o"></i>
+							<input class="text-input" type="search" name="s" placeholder="Search">
+						</div>
+					</div>
+				</form>
+				
+		<div class="search_adv">
+			<a href=""><img src="https://cdn.southcat.net/wp-content/themes/easter/img/default.jpg"></a>
+			</div>
+	</div>
+	<script type='text/javascript' src='https://cdn.southcat.net/wp-content/themes/easter/assets/js/jquery.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='https://cdn.southcat.net/wp-content/themes/easter/assets/js/nprogress.js?ver=1.2.1'></script>
+<script type='text/javascript' src='https://cdn.southcat.net/wp-content/themes/easter/assets/js/jquery.fancybox.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='https://cdn.southcat.net/wp-content/themes/easter/assets/js/project.js?ver=1.2.1'></script>
+<script type='text/javascript' src='https://cdn.southcat.net/wp-content/themes/easter/assets/js/jquery.validate.js?ver=1.2.1'></script>
+<script type='text/javascript' src='https://cdn.southcat.net/wp-content/themes/easter/assets/js/jquery.form.js?ver=1.2.1'></script>
+<script type='text/javascript' src='https://cdn.southcat.net/wp-content/themes/easter/assets/js/login.js?ver=1.2.1'></script>
+<script type='text/javascript' src='https://cdn.southcat.net/wp-content/themes/easter/user/static/ea_user.js?ver=1.2.1'></script>
+<script type='text/javascript' src='https://cdn.southcat.net/wp-content/themes/easter/assets/js/app.js?ver=1.2.1'></script>
+<!-- 自定义js -->
+<script type="text/javascript">
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+
+</script>
+<div class="tongji" style="display:none">
+<script type="text/javascript">
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?5e0a8268c68990405ce62839a9d9b609";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+
+
+
+</script>
+</div>
+
+</body>
+</html>
+
+<!-- Dynamic page generated in 7.390 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2020-03-19 23:49:59 -->
+
+<!-- Super Cache dynamic page detected but late init not set. See the readme.txt for further details. -->
+<!-- Dynamic Super Cache -->
